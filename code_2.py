@@ -67,7 +67,7 @@ REGRESSION_OPTIM_CONFIG: Dict[str, object] = {
     "score_reg_loss_weight": 0.01,
     "fold_score_label4_weight": 0.85,
     "fold_score_overall_weight": 0.15,
-    "existence_thresholds": [0.50, 0.50, 0.50, 0.40, 0.40],
+    "existence_thresholds": [0.50, 0.50, 0.50, 0.50, 0.50],
 }
 
 RUN_CONFIG = {
@@ -79,9 +79,9 @@ RUN_CONFIG = {
     "label_file": "FMAX.csv",
 
     "external_eem_file": "predict_all_data_processed.csv",
-    "external_loading_file": "predict_all_ture_loadings_processed.csv",
+    "external_loading_file": "predict_all_loadings_processed.csv",
     "external_label_file": "external_FMAX.csv",
-    "external_output_file": "ture_external_label4_3.csv",
+    "external_output_file": "external_label4_3.csv",
 
     "model_file": "",
 
